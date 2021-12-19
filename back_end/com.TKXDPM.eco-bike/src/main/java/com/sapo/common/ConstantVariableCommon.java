@@ -7,8 +7,8 @@ public class ConstantVariableCommon {
 
     //Hàm chuyển status từ int sang string
     public static String statusVehicleIntToString(int status) {
-        if (status == STATUS_VEHICLE_1) return "aaaaaaaa";
-        if (status == STATUS_VEHICLE_2) return "bbbbbbbbbb";
+        if (status == STATUS_VEHICLE_1) return "đang có người thuê";
+        if (status == STATUS_VEHICLE_2) return "chưa có ";
         return "cccccc";
     }
 }

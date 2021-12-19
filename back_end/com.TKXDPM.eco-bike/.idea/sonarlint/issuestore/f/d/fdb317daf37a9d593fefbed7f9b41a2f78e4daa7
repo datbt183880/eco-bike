@@ -1,0 +1,15 @@
+
+^
+java:S18548"HRemove this useless assignment to local variable "vehiclePaginationDTO".(€ÁÈ¹
+U
+java:S1144f":Remove this unused private "saveVehicleRepository" method.(üÉƒŒÿÿÿÿÿ
+t
+java:S2293U"YReplace the type specification in this constructor call with the diamond operator ("<>").(ºŒÅµÿÿÿÿÿ
+~
+java:S1488!"cImmediately return this expression instead of assigning it to the temporary variable "vehicleDTOS".(³ğÖ«ûÿÿÿÿ
+u
+java:S14881"_Immediately return this expression instead of assigning it to the temporary variable "vehicle".(Ø…Ş˜
+‡
+java:S1488P"lImmediately return this expression instead of assigning it to the temporary variable "vehiclePaginationDTO".(¦—Á—ùÿÿÿÿ
+‡
+java:S1488`"lImmediately return this expression instead of assigning it to the temporary variable "vehiclePaginationDTO".(ä’ùÿÿÿÿ

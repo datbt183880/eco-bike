@@ -16,17 +16,17 @@ import java.util.List;
 
 @Service
 public class VehicleServiceImpl implements VehicleService {
+    private static final Logger LOGGER = LoggerFactory.getLogger(VehicleServiceImpl.class.toString());
 
     private final VehicleDAO vehicleDAO;
     private final VehicleRepository vehicleRepository;
-
-    private static final Logger LOGGER = LoggerFactory.getLogger(VehicleServiceImpl.class.toString());
 
     public VehicleServiceImpl(VehicleDAO vehicleDAO, VehicleRepository vehicleRepository) {
         this.vehicleDAO = vehicleDAO;
         this.vehicleRepository = vehicleRepository;
     }
 
+    //lấy 1 list vehicle và phân trang
     @Override
     public List<VehicleDTOResponse> getListVehicle(String keyword) {
         List<Vehicle> vehicles = vehicleDAO.findAllVehicleByKeyword(keyword);

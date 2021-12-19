@@ -13,7 +13,6 @@ import java.util.List;
 
 @RequestMapping("/api/vehicles")
 @CrossOrigin("http://localhost:3000")
-//@PreAuthorize("hasRole('ADMIN') or hasRole('COORDINATOR')")
 @RestController
 public class VehicleController {
     private final VehicleService vehicleService;
@@ -48,6 +47,5 @@ public class VehicleController {
     Vehicle vehicle = vehicleService.findVehicleById(id);
     return ResponseEntity.ok(vehicle);
   }
-
-
+  
 }
